@@ -107,7 +107,7 @@ This project was built to demonstrate:
 
 ---
 
-## ⚙️ Environment Variables (Backend)
+## Environment Variables (Backend)
 
 MONGO_URI=your_mongodb_atlas_uri
 JWT_SECRET=your_jwt_secret
