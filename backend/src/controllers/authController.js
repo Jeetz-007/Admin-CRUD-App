@@ -3,7 +3,7 @@ import generateToken from "../utils/generateToken.js";
 
 export const loginAdmin = async (req, res) => {
   const { email, password } = req.body;
-  console.log("Login Route hit....", req.body);
+  console.log("Login Route hit.......")
 
   try {
     const admin = await Admin.findOne({ email });

@@ -1,26 +1,13 @@
-const sidebar = document.getElementById('sidebar');
+const path = window.location.pathname;
 
-const toggleSidebarMobile = (sidebar, sidebarBackdrop, toggleSidebarMobileHamburger, toggleSidebarMobileClose) => {
-    sidebar.classList.toggle('hidden');
-    sidebarBackdrop.classList.toggle('hidden');
-    toggleSidebarMobileHamburger.classList.toggle('hidden');
-    toggleSidebarMobileClose.classList.toggle('hidden');
+if (path.includes("dashboard.html")) {
+  document.getElementById("nav-dashboard")?.classList.add("bg-gray-700");
 }
 
-const toggleSidebarMobileEl = document.getElementById('toggleSidebarMobile');
-const sidebarBackdrop = document.getElementById('sidebarBackdrop');
-const toggleSidebarMobileHamburger = document.getElementById('toggleSidebarMobileHamburger');
-const toggleSidebarMobileClose = document.getElementById('toggleSidebarMobileClose');
-const toggleSidebarMobileSearch = document.getElementById('toggleSidebarMobileSearch');
+if (path.includes("products.html")) {
+  document.getElementById("nav-products")?.classList.add("bg-gray-700");
+}
 
-toggleSidebarMobileSearch.addEventListener('click', () => {
-    toggleSidebarMobile(sidebar, sidebarBackdrop, toggleSidebarMobileHamburger, toggleSidebarMobileClose);
-});
-
-toggleSidebarMobileEl.addEventListener('click', () => {
-    toggleSidebarMobile(sidebar, sidebarBackdrop, toggleSidebarMobileHamburger, toggleSidebarMobileClose);
-});
-
-sidebarBackdrop.addEventListener('click', () => {
-    toggleSidebarMobile(sidebar, sidebarBackdrop, toggleSidebarMobileHamburger, toggleSidebarMobileClose);
-});
+if (path.includes("accounts.html")) {
+  document.getElementById("nav-accounts")?.classList.add("bg-gray-700");
+}
