@@ -9,7 +9,7 @@ if (form) {
     const password = document.getElementById("password").value;
 
     try {
-      const res = await fetch("http://localhost:5001/api/auth/login", {
+      const res = await fetch("https://admin-crud-app.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

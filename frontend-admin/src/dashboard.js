@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const API_URL = "http://localhost:5001/api/products";
+  const API_URL = "https://admin-crud-app.onrender.com/api/products";
   const productCountEl = document.getElementById("productCount");
   const logoutBtn = document.getElementById("logoutBtn");
 

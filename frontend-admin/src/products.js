@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const API_URL = "http://localhost:5001/api/products";
+  const API_URL = "https://admin-crud-app.onrender.com/api/products";
   const token = localStorage.getItem("adminToken");
 
   const tableBody = document.getElementById("productsTable");
