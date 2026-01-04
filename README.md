@@ -5,7 +5,7 @@ The application allows **public users to view products**, while **admin users ca
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 - **Admin Dashboard (Frontend)**  
    https://admin-crud-app.netlify.app/
@@ -90,7 +90,7 @@ This project was built to demonstrate:
 
 ---
 
-## 🧪 API Endpoints
+## API Endpoints
 
 ### Auth
 | Method | Endpoint | Description |
