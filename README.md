@@ -1,7 +1,7 @@
 # Admin CRUD Dashboard (JWT Auth)
 
 A full-stack **admin-controlled inventory management system**.  
-The application allows **public users to view products**, while **admin users can securely manage products** through a protected dashboard using **JWT authentication**.
+The application allows **admin users to securely manage products** through a protected dashboard using **JWT authentication**.
 
 ---
 
